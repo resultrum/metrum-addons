@@ -4,8 +4,8 @@
         <xpath expr="//div[@t-if='o.name']" position="before">
             <div class="col-xs-2" t-if="o.partner_shipping_id">
                 <strong>Address:</strong>
-                    <address t-field="o.partner_shipping_id"
-                        t-options='{"widget": "contact", "fields": ["address"], "no_marker": True}' />
+                <address t-field="o.partner_shipping_id"
+                    t-options='{"widget": "contact", "fields": ["address"], "no_marker": True}' />
             </div>
         </xpath>
     </template>
